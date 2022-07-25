@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Exam1petersjl</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="options">Options</string>
+    <string name="fonts">Fonts</string>
+    <string name="favorites">Favorites</string>
+    <string name="app_title">FontExplorer by Joseph Peters</string>
+    <string name="change_color">Change Color</string>
+    <string name="dummy_text">Lorem Ipsum</string>
+    <string name="enter_custom_text">Enter Custom Text</string>
+    <string name="favorites_fragment_holder">Favorites fragment</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HelloButton</string>
+    <string name="message_start">You have clicked the button 0 times</string>
+    <string name="message_format">You have clicked the button %d times</string>
+    <plurals name="message_plurals">
+        <item quantity="one">You have clicked the button %d time</item>
+        <item quantity="other">You have clicked the button %d times</item>
+    </plurals>
+    <string name="button">Press Me</string>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PokéPics</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="default_image_text">ImageTitle</string>
+    <string name="default_url">URLString</string>
+    <string name="caption_hint">Enter image caption</string>
+    <string name="url_hint">Enter image URL</string>
+    <string name="title_text">Title for app:</string>
+    <string name="enter_new_title">Enter new title</string>
+    <string name="default_image_caption">Image caption</string>
+    <string name="set_title">Set title</string>
+    <string name="login">Login</string>
+    <string name="icon">Icon</string>
+    <string name="show_mine">Show mine</string>
+    <string name="logout">Logout</string>
+    <string name="show_all">Show all</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/sign_in_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:paddingRight="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/hangman6"
+        tools:ignore="RtlHardcoded,RtlSymmetry"
+        android:contentDescription="@string/hangman_picture" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_in_image"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:text="@string/app_title"
+        android:textSize="42sp"/>
+
+    <Button
+        android:id="@+id/sign_in_button"
+        android:background="@color/gameWon"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/sign_in"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"/>
+
+</RelativeLayout>

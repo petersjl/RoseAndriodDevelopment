@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AutoCompleteTextView
+        android:id="@+id/auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AutoCompleteTextView"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/auto"
+        android:layout_centerHorizontal="true"
+        android:text="Choose a vehicle from the list below"
+        />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="NORTH"
+            android:textStyle="bold"
+            android:background="#5ec45c"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="SOUTH"
+            android:textStyle="bold"
+            android:background="#a05cc4"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="EAST"
+            android:textStyle="bold"
+            android:background="#e0c436"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="WEST"
+            android:textStyle="bold"
+            android:background="#20a5c9"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear"
+        android:layout_centerHorizontal="true"
+        android:text="Press a button to move in that direction"
+        />
+
+</RelativeLayout>

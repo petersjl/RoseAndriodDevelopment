@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<!--Main container-->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:orientation="horizontal"
+		android:layout_centerInParent="true">
+		<View
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:background="#1c8eff"/>
+
+		<!--Content and status bar-->
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:layout_weight="49"
+			>
+
+			<!--Words and data-->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:orientation="horizontal"
+				android:layout_weight="28"
+				android:background="#EEE"
+				>
+				<TextView
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="60"
+					android:text="Sports 3x per Week"
+					android:textSize="22sp"
+					android:gravity="center_vertical"
+					android:layout_margin="10dp"/>
+				<TextView
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="10"
+					android:text="10"
+					android:textSize="22sp"
+					android:gravity="center"/>
+				<TextView
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="20"
+					android:text="38%"
+					android:textSize="22sp"
+					android:gravity="center"/>
+			</LinearLayout>
+
+			<!--Status bar-->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:orientation="horizontal"
+				android:layout_weight="2">
+				<View
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="38"
+					android:background="#cbfcac"/>
+				<View
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="62"
+					android:background="#DDD"/>
+
+			</LinearLayout>
+		</LinearLayout>
+
+	</LinearLayout>
+</RelativeLayout>

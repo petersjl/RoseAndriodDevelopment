@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f36d"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/game_state_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/game_table"
+        android:text="@string/starting_string"
+        android:textSize="30sp"
+        android:textColor="@color/text_color"
+        />
+
+    <TableLayout
+        android:id="@+id/game_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <Button
+                android:id="@+id/button0"
+                style="@style/LLOButton"
+                />
+            <Button
+                android:id="@+id/button1"
+                style="@style/LLOButton"
+                />
+            <Button
+                android:id="@+id/button2"
+                style="@style/LLOButton"
+                />
+            <Button
+                android:id="@+id/button3"
+                style="@style/LLOButton"
+                />
+            <Button
+                android:id="@+id/button4"
+                style="@style/LLOButton"
+                />
+            <Button
+                android:id="@+id/button5"
+                style="@style/LLOButton"
+                />
+            <Button
+                android:id="@+id/button6"
+                style="@style/LLOButton"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/new_game_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_game"
+        android:layout_below="@id/game_table"
+        android:layout_alignRight="@id/game_table"
+        />
+
+</RelativeLayout>

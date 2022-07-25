@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+
+    <Button
+            android:id="@+id/activity_input_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/activity_input_color_button"/>
+
+    <EditText
+            android:id="@+id/activity_input_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/activity_input_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:hint="@string/activity_input_message_hint"
+            android:inputType="textCapSentences"/>
+</RelativeLayout>

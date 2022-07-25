@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:src="@drawable/avatars1"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:src="@drawable/avatars2"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            >
+            <ImageView
+                android:src="@drawable/avatars3"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:src="@drawable/avatars4"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/table"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp"
+        android:text="Select a friend to call"
+        />
+
+
+</RelativeLayout>

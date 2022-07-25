@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.zehren.photobucket.MainActivity">
+    <item
+        android:id="@+id/action_title"
+        android:orderInCategory="100"
+        android:title="@string/set_title"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/which_cards"
+        android:orderInCategory="10"
+        android:title="@string/show_all"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="110"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+</menu>

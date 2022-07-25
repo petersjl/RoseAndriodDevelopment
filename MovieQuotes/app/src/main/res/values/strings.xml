@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MovieQuotes</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="default_quote">Quote</string>
+    <string name="default_movie">Movie</string>
+    <string name="quote_hint">Enter quote</string>
+    <string name="movie_hint">Enter movie</string>
+    <string name="increase_font_size">Increase font size</string>
+    <string name="decrease_font_size">Decrease font size</string>
+    <string name="clear_text">Clear</string>
+    <string name="confirm_delete_message">Are you sure you want to delete this quote?</string>
+    <string name="get_favorite_movie">Get favorite movie</string>
+    <string name="get_favorite_quote">Get favorite quote</string>
+    <string name="get_all_quotes">Get all quotes</string>
+    <string name="set_author">Set author</string>
+    <string name="author_hint">Enter author name</string>
+    <string name="new_author_name">New author name:</string>
+    <string-array name="settings_types">
+        <item>Sound</item>
+        <item>Search</item>
+        <item>General</item>
+    </string-array>
+</resources>

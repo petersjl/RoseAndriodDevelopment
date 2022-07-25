@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#fca177"
+	android:orientation="vertical">
+
+	<!--The top bar-->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+        android:layout_margin="10dp">
+
+		<ImageView
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:src="@drawable/ic_down_arrow" />
+
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="5"
+			android:gravity="center"
+			android:text="Dierks Bentley"
+			android:textColor="#FFF"
+			android:textSize="20sp" />
+
+		<ImageView
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:src="@drawable/ic_top_menu" />
+	</LinearLayout>
+
+	<!--The main picture-->
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_margin="20dp"
+		android:layout_weight="7"
+		android:src="@drawable/the_mountain" />
+
+	<!--The info bar-->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="2">
+
+		<ImageView
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:src="@drawable/ic_plus"
+            android:layout_margin="10dp"/>
+
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="5"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:gravity="bottom|center_horizontal"
+				android:text="Burning Man"
+				android:textColor="#FFF"
+				android:textSize="20sp"
+				android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Dierks Bentley"
+                android:textColor="#FFF"
+                android:textSize="20sp" />
+		</LinearLayout>
+
+		<ImageView
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:src="@drawable/ic_menu" />
+	</LinearLayout>
+
+	<!--Space holder-->
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1.5" />
+
+	<!--The media bar-->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+        android:layout_margin="10dp">
+
+		<ImageView
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:src="@drawable/ic_loop" />
+
+		<ImageView
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:src="@drawable/ic_prev" />
+
+		<ImageView
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:src="@drawable/ic_pause" />
+
+		<ImageView
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:src="@drawable/ic_next" />
+
+		<ImageView
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:src="@drawable/ic_shuffle" />
+
+	</LinearLayout>
+
+</LinearLayout>
